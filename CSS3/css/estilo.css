@@ -1,0 +1,86 @@
+/*#box{
+	width: 300px;
+	height: 300px;
+	background: url("../imgs/camera.png");
+*/	
+/*	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;*/
+/*	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#box h1{
+	background: rgba(255,255,255,0.5);
+	border-bottom: 2px solid #FFF;
+}*/
+/*#box{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, red, yellow);*/
+	/*background: linear-gradient(45deg, red, yellow);
+	background: radial-gradient(red, yellow, red, yellow);
+}*/
+
+/*SOMBRAS*/
+#box{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding: 8px;
+	background: #009670;
+	/*box-shadow: 4px 4px 10px black;*/
+	/*box-shadow: 10px 10px 2px 2px rgba(0,0,0,0.5);*/
+	box-shadow: 10px 10px 2px rgba(0,0,0,1), -10px -10px 2px red;
+}
+#box h1{
+	color: white;
+	font-size: 60px;
+	/*text-shadow: 10px 10px 20px black;*/
+	/*text-shadow: 10px 10px rgba(0,0,0,0.5);*/
+	text-shadow: 4px 4px black;
+}
+/*Animacoes*/
+/*Criar a animação*/
+/*@keyframes animacao-box{
+	from {
+		background: red; 
+		border-radius: 0px; 
+		top:0; 
+		left: 0;
+	}
+	to {
+		background: yellow; 
+		border-radius: 300px; 
+		top:200px; 
+		left: 200px
+	}
+}
+
+#box-animacao{
+	background: red;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	animation-name:animacao-box;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+
+	
+}*/
+
+/*Transições*/
+#box-transicao{
+	width: 300px;
+	height: 300px;
+	background: orange;
+	transition: all 2s;
+}
+#box-transicao:hover{
+	width: 400px;
+	background: black;
+	/*transition: background 3s, width 3s;*/
+	transition: all 2s;
+}
